@@ -1,0 +1,77 @@
+
+h1{
+    font-size: 6rem;
+    text-align: center;
+    color: #FFFF80;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+}
+label{
+    font: 3rem sans-serif;
+    font-family: "Poetsen One", sans-serif;
+    color: #F6D365;
+    margin-right: 10px;
+}
+button{
+    color: #E15249;
+    height: 80px;
+    width: 300px;
+    border: 5px solid #C83660;
+    border-radius: 13px;
+    font-size: xx-large;
+    background-color: #FFC55A;
+    
+}
+body{
+    background-color: #3A1F5D;
+}
+input{
+    
+    background-color: wheat;
+    height: 50px;
+    border: 5px solid #E15249;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    font-size: large;
+}
+.content{ 
+    width: 100%; 
+    min-height: 100vh; 
+    display: flex; 
+    align-items: normal; 
+    justify-content: center;
+}
+
+.input-area{
+    display: grid;
+    height: 400px;
+    width: 1800px;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 150px 150px 150px 100px;
+    gap: 10px;
+    place-items: center;
+}
+
+.submit-btn{
+    grid-area: 2/ 2/ 3 / 3 ;
+}
+
+.result{
+    grid-area: 3/ 2/ 4/ 3;
+}
+
+.result-box{
+    grid-area: 4/ 2/ 5/ 3 ;
+    
+}
+
+p{
+    height: 50px;
+    width: 540px;
+    background-color: whitesmoke;
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    font-size: x-large;
+
+}

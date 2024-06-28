@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <div class="main">
+      <h1>Calculator</h1>
+      <div class="content">
+          <div class="input-area">
+            <div class="test">
+              <label class="input-box" for="firstNum">First Number</label>
+              <input name="firstNum" value="0" type="number" id="num1" class="input-box" onchange="changeHandler(event)">
+            </div>
+            
+            <div class="test">
+              <label class="input-box" for="secondNum">Second Number</label>
+            <input name="secondNum" value="0" type="number" id="num2" class="input-box" onchange="changeHandler(event)">
+            </div>
+            
+            <div class="test">
+              <label class="input-box" for="operator">Operator</label>
+            <input name="operator" type="text" id="operator" class="input-box" onchange="changeHandler(event)">
+            </div>
+          
+           <div class="submit-btn">
+            <button onclick="clickHandler(event)">Calculate</button>
+          </div>
+          <div class="result">
+            <label for="result">Result of the Calculation</label>
+          </div>
+          <div class="result-box">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+          
+      </div>
+      
+      <!-- <div class="keys">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>0</button>
+        <button>+</button>
+        <button>-</button>
+        <button>x</button>
+        <button>/</button>
+        <button>C</button>
+      </div> -->
+      <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
